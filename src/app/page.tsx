@@ -82,7 +82,7 @@ export default function Home() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Button
             onClick={
-              isConnected ? () => router.push('/dashboard') : connectWallet
+              isConnected ? () => router.push('/dashboard.png') : connectWallet
             }
             className="ml-4 text-sm font-medium text-white bg-blue-600 rounded-md px-4 py-2"
           >
