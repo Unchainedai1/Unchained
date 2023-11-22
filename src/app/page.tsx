@@ -127,7 +127,7 @@ export default function Home() {
             Coming Soon...
           </h2>
           <div className="flex justify-center">
-            <Image
+            <img
               alt="SAAS dashboard"
               className="rounded-lg shadow-lg"
               height="300"
