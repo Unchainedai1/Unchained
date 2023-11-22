@@ -98,7 +98,7 @@ export default function Home() {
           </p>
           <Link
             className="inline-flex h-10 items-center justify-center rounded-md bg-blue-600 mt-6 px-8 text-sm font-medium text-white"
-            href="#"
+            href="#1"
           >
             Get Started
           </Link>
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full py-12 px-4 lg:px-6">
-          <h2 className="text-2xl font-bold text-center mb-12">Roadmap</h2>
+          <h2 className="text-2xl font-bold text-center mb-12" id="1">Roadmap</h2>
           <div className="grid grid-cols-3 gap-8">
             <div className="flex flex-col items-center space-y-2">
               <IconPhase1 className="h-6 w-6 text-blue-600" />
