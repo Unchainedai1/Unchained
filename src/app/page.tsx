@@ -209,7 +209,7 @@ export default function Home() {
           </Link>
         </nav>
         <div className="flex gap-4 mt-4">
-          <Link className="text-blue-400" href="#">
+          <Link className="text-blue-400" href="https://twitter.com/unchainedai">
             <IconTwitter className="h-5 w-5" />
           </Link>
           <Link
