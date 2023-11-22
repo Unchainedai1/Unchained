@@ -82,7 +82,7 @@ export default function Home() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Button
             onClick={
-              isConnected ? () => router.push('/dashboard.png') : connectWallet
+              isConnected ? () => router.push('/dashboard') : connectWallet
             }
             className="ml-4 text-sm font-medium text-white bg-blue-600 rounded-md px-4 py-2"
           >
@@ -131,7 +131,7 @@ export default function Home() {
               alt="SAAS dashboard"
               className="rounded-lg shadow-lg"
               height="300"
-              src="/dashboard.png"
+              src="https://utfs.io/f/d4f1ed98-6b04-4505-a71c-f9ef4cfeaf99-hbvaek.png"
               style={{
                 aspectRatio: '600/300',
                 objectFit: 'cover',
